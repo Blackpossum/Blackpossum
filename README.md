@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d7d80,100:39c9cc&height=180&section=header&text=Yosaphat%20Harwindra&fontSize=42&fontColor=ffffff&fontAlignY=34&desc=Fullstack%20engineer%20%C2%B7%20Surakarta,%20Indonesia&descSize=16&descAlignY=54" alt="Yosaphat Harwindra, fullstack engineer, Surakarta, Indonesia" />
+  <img src="./assets/hmi-header.svg" width="100%" alt="Yosaphat Harwindra, fullstack engineer. Open to remote roles, UTC+7. 3 years production React, 417 design system commits, 60fps robot fleet UI, 86% test coverage." />
 </p>
 
 <p align="center">
@@ -8,12 +8,12 @@
   <a href="mailto:yosaphatharwindra@gmail.com"><img src="https://img.shields.io/badge/Email-39c9cc?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-Fullstack engineer with two years shipping production React and TypeScript for
+Fullstack engineer with three years shipping production React and TypeScript for
 laboratory-automation software: interfaces that configure and watch machines
 that physically move. Now writing the other half of the contract too, with
 Fastify, NestJS and PostgreSQL.
 
-## Proof
+## ▸ Production log
 
 **Formulatrix** · Frontend Software Engineer · Jul 2024 to May 2026
 
@@ -29,19 +29,19 @@ Fastify, NestJS and PostgreSQL.
 **Binary Studio Academy 2026** · top contributor on the team monorepo (50 of 118
 commits), mostly auth: password reset, token handling, rate limiting.
 
-## Featured
+## ▸ Stations
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [**parish-booking-system**](https://github.com/Blackpossum/parish-booking-system) · [live](https://parish-booking-frontend.vercel.app) | Meeting-room booking for a real parish in Surakarta. Parishioners request, the secretariat approves, a wall monitor shows today's schedule live. Double-booking is blocked at the database. | NestJS, Prisma, PostgreSQL, React PWA |
-| [**bsa-2026-promtomat**](https://github.com/Blackpossum/bsa-2026-promtomat) | Production-style monorepo from Binary Studio Academy. Zod schemas shared between API and client so neither side can drift. | Fastify, Objection/Knex, PostgreSQL, React 19, RTK Query |
-| [**software-engineer-portfolio**](https://github.com/Blackpossum/software-engineer-portfolio) · [live](https://software-engineer-portfolio-lovat.vercel.app) | My portfolio, rebuilt in code. Static routes, schema-validated content, Playwright across three browsers on every PR. | Next.js 16, React 19, GSAP, Vitest, Playwright |
-| [**Project-Artemis**](https://github.com/Blackpossum/Project-Artemis) | A modular component library: the problem I spent a year on at work, rebuilt where I can show it. | TypeScript, pnpm workspaces, Storybook 10, Vite |
+| Status | Project | What it is | Stack |
+| --- | --- | --- | --- |
+| 🟢 live | [**parish-booking-system**](https://github.com/Blackpossum/parish-booking-system) · [live](https://parish-booking-frontend.vercel.app) | Meeting-room booking for a real parish in Surakarta. Parishioners request, the secretariat approves, a wall monitor shows today's schedule live. Double-booking is blocked at the database. | NestJS, Prisma, PostgreSQL, React PWA |
+| 🔵 shipped | [**bsa-2026-promtomat**](https://github.com/Blackpossum/bsa-2026-promtomat) | Production-style monorepo from Binary Studio Academy. Zod schemas shared between API and client so neither side can drift. | Fastify, Objection/Knex, PostgreSQL, React 19, RTK Query |
+| 🟢 live | [**software-engineer-portfolio**](https://github.com/Blackpossum/software-engineer-portfolio) · [live](https://software-engineer-portfolio-lovat.vercel.app) | My portfolio, rebuilt in code. Static routes, schema-validated content, Playwright across three browsers on every PR. | Next.js 16, React 19, GSAP, Vitest, Playwright |
+| 🟡 active | [**Project-Artemis**](https://github.com/Blackpossum/Project-Artemis) | A modular component library: the problem I spent a year on at work, rebuilt where I can show it. | TypeScript, pnpm workspaces, Storybook 10, Vite |
 
 Most of what I have shipped lives in company repositories, so what is public
 here is deliberately small.
 
-## Stack
+## ▸ Equipment
 
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -64,7 +64,7 @@ here is deliberately small.
 without lying to the operator about machine state. **Testing:** Jest, Vitest,
 React Testing Library, Playwright. Tests go in with the component.
 
-## How I work
+## ▸ Operating rules
 
 - If the UI shows something the server has not confirmed, the UI says so.
   Optimistic is fine. Silent is not.
@@ -73,6 +73,8 @@ React Testing Library, Playwright. Tests go in with the component.
 
 ---
 
-<sub>Trained in mechanical engineering before I wrote any code, which is
-probably how I ended up writing software for machines. Surakarta, Indonesia ·
-UTC+7.</sub>
+<p align="center">
+  <img src="./assets/boot-log.svg" width="100%" alt="Career boot log: 2016 mechanical engineering, 2019 welding robot programmer, 2020 corrugator dry end and shift lead, 2023 RevoU fullstack, 2024 Formulatrix frontend engineer, 2026 Binary Studio Academy. Next: fullstack, remote." />
+</p>
+
+<p align="center"><sub>Trained in mechanical engineering before I wrote any code, which is probably how I ended up writing software for machines. UTC+7.</sub></p>

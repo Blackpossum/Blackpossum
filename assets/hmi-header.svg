@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Yosaphat Harwindra, fullstack engineer</title>
+  <desc id="d">Status: open to remote roles, UTC+7. Three years of production React. 417 design system commits, 60fps robotics telemetry UI, 86 percent component test coverage.</desc>
+  <style>
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .blink { animation: blink 1.6s steps(2, start) infinite; }
+    @keyframes blink { to { opacity: 0.15; } }
+    .scan { animation: scan 4s linear infinite; }
+    @keyframes scan { from { transform: translateX(-120px); } to { transform: translateX(900px); } }
+  </style>
+
+  <rect width="900" height="320" rx="10" fill="#1F1F1D"/>
+  <rect x="1" y="1" width="898" height="318" rx="9" fill="none" stroke="#5F5E5A" stroke-width="2"/>
+
+  <!-- status bar -->
+  <rect x="2" y="2" width="896" height="40" rx="8" fill="#2C2C2A"/>
+  <rect x="2" y="30" width="896" height="12" fill="#2C2C2A"/>
+  <circle class="blink" cx="26" cy="22" r="7" fill="#97C459"/>
+  <text class="m" x="44" y="27" font-size="14" fill="#C0DD97" letter-spacing="1">STATUS: OPEN TO REMOTE ROLES</text>
+  <text class="m" x="876" y="27" font-size="14" fill="#B4B2A9" text-anchor="end" letter-spacing="1">TZ: UTC+7 · MODE: AUTO</text>
+  <rect class="scan" x="0" y="40" width="120" height="2" fill="#97C459" opacity="0.6"/>
+
+  <!-- identity -->
+  <text class="m" x="32" y="96" font-size="38" font-weight="700" fill="#FAC775" letter-spacing="2">YOSAPHAT HARWINDRA</text>
+  <text class="m" x="32" y="128" font-size="15" fill="#D3D1C7" letter-spacing="1">FULLSTACK ENGINEER · REACT · TYPESCRIPT · NODE · POSTGRESQL</text>
+
+  <!-- gauge tiles -->
+  <g class="m">
+    <g transform="translate(32,156)">
+      <rect width="192" height="112" rx="6" fill="#2C2C2A" stroke="#444441"/>
+      <rect width="4" height="112" fill="#EF9F27"/>
+      <text x="20" y="54" font-size="34" font-weight="700" fill="#FAEEDA">3 YRS</text>
+      <text x="20" y="80" font-size="12" fill="#B4B2A9" letter-spacing="1">PRODUCTION REACT</text>
+      <text x="20" y="97" font-size="12" fill="#888780" letter-spacing="1">AND TYPESCRIPT</text>
+    </g>
+    <g transform="translate(240,156)">
+      <rect width="192" height="112" rx="6" fill="#2C2C2A" stroke="#444441"/>
+      <rect width="4" height="112" fill="#EF9F27"/>
+      <text x="20" y="54" font-size="34" font-weight="700" fill="#FAEEDA">417</text>
+      <text x="20" y="80" font-size="12" fill="#B4B2A9" letter-spacing="1">DESIGN SYSTEM</text>
+      <text x="20" y="97" font-size="12" fill="#888780" letter-spacing="1">COMMITS, 2ND OF 40+</text>
+    </g>
+    <g transform="translate(448,156)">
+      <rect width="192" height="112" rx="6" fill="#2C2C2A" stroke="#444441"/>
+      <rect width="4" height="112" fill="#97C459"/>
+      <text x="20" y="54" font-size="34" font-weight="700" fill="#FAEEDA">60 FPS</text>
+      <text x="20" y="80" font-size="12" fill="#B4B2A9" letter-spacing="1">ROBOT FLEET UI</text>
+      <text x="20" y="97" font-size="12" fill="#888780" letter-spacing="1">UNDER TELEMETRY</text>
+    </g>
+    <g transform="translate(656,156)">
+      <rect width="212" height="112" rx="6" fill="#2C2C2A" stroke="#444441"/>
+      <rect width="4" height="112" fill="#97C459"/>
+      <text x="20" y="54" font-size="34" font-weight="700" fill="#FAEEDA">86%</text>
+      <text x="20" y="80" font-size="12" fill="#B4B2A9" letter-spacing="1">TEST COVERAGE</text>
+      <text x="20" y="97" font-size="12" fill="#888780" letter-spacing="1">COMPONENT LIBRARY</text>
+      <rect x="20" y="104" width="172" height="3" fill="#444441"/>
+      <rect x="20" y="104" width="148" height="3" fill="#97C459"/>
+    </g>
+  </g>
+
+  <text class="m" x="32" y="300" font-size="12" fill="#888780" letter-spacing="1">SYS://MECH-ENG → FACTORY FLOOR → SOFTWARE FOR MACHINES</text>
+  <text class="m" x="868" y="300" font-size="12" fill="#5F5E5A" text-anchor="end" letter-spacing="1">PANEL REV 26.11</text>
+</svg>

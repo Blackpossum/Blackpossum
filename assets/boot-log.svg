@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Career boot log</title>
+  <desc id="d">2016 mechanical engineering at SMK St. Mikael. 2019 welding robot programmer. 2020 corrugator dry end operator and acting shift lead. 2023 RevoU fullstack program. 2024 Formulatrix frontend software engineer. 2026 Binary Studio Academy. Next: fullstack, remote.</desc>
+  <style>
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ln { opacity: 0; animation: in 0.3s ease-out forwards; }
+    @keyframes in { to { opacity: 1; } }
+    .cur { animation: blink 1s steps(2, start) infinite; }
+    @keyframes blink { to { opacity: 0; } }
+  </style>
+
+  <rect width="900" height="300" rx="10" fill="#04342C"/>
+  <rect x="1" y="1" width="898" height="298" rx="9" fill="none" stroke="#0F6E56" stroke-width="2"/>
+  <rect x="2" y="2" width="896" height="34" rx="8" fill="#085041"/>
+  <rect x="2" y="26" width="896" height="10" fill="#085041"/>
+  <circle cx="24" cy="19" r="6" fill="#5DCAA5"/>
+  <circle cx="44" cy="19" r="6" fill="#1D9E75"/>
+  <circle cx="64" cy="19" r="6" fill="#0F6E56"/>
+  <text class="m" x="450" y="24" font-size="13" fill="#9FE1CB" text-anchor="middle">erwin@career: ~/boot.log</text>
+
+  <g class="m" font-size="15">
+    <g class="ln" style="animation-delay:0.2s">
+      <text x="28" y="72" fill="#5DCAA5">[2016]</text>
+      <text x="100" y="72" fill="#E1F5EE">mechanical engineering, smk st. mikael</text>
+      <line x1="500" y1="68" x2="800" y2="68" stroke="#0F6E56" stroke-dasharray="2 6"/>
+      <text x="872" y="72" fill="#5DCAA5" text-anchor="end">[ OK ]</text>
+    </g>
+    <g class="ln" style="animation-delay:0.6s">
+      <text x="28" y="100" fill="#5DCAA5">[2019]</text>
+      <text x="100" y="100" fill="#E1F5EE">welding robot programmer, teach pendant</text>
+      <line x1="500" y1="96" x2="800" y2="96" stroke="#0F6E56" stroke-dasharray="2 6"/>
+      <text x="872" y="100" fill="#5DCAA5" text-anchor="end">[ OK ]</text>
+    </g>
+    <g class="ln" style="animation-delay:1.0s">
+      <text x="28" y="128" fill="#5DCAA5">[2020]</text>
+      <text x="100" y="128" fill="#E1F5EE">corrugator dry end + shift lead, 250 m/min</text>
+      <line x1="530" y1="124" x2="800" y2="124" stroke="#0F6E56" stroke-dasharray="2 6"/>
+      <text x="872" y="128" fill="#5DCAA5" text-anchor="end">[ OK ]</text>
+    </g>
+    <g class="ln" style="animation-delay:1.4s">
+      <text x="28" y="156" fill="#5DCAA5">[2023]</text>
+      <text x="100" y="156" fill="#E1F5EE">revou fullstack software engineering</text>
+      <line x1="500" y1="152" x2="800" y2="152" stroke="#0F6E56" stroke-dasharray="2 6"/>
+      <text x="872" y="156" fill="#5DCAA5" text-anchor="end">[ OK ]</text>
+    </g>
+    <g class="ln" style="animation-delay:1.8s">
+      <text x="28" y="184" fill="#5DCAA5">[2024]</text>
+      <text x="100" y="184" fill="#E1F5EE">formulatrix, frontend software engineer</text>
+      <line x1="500" y1="180" x2="800" y2="180" stroke="#0F6E56" stroke-dasharray="2 6"/>
+      <text x="872" y="184" fill="#5DCAA5" text-anchor="end">[ OK ]</text>
+    </g>
+    <g class="ln" style="animation-delay:2.2s">
+      <text x="28" y="212" fill="#5DCAA5">[2026]</text>
+      <text x="100" y="212" fill="#E1F5EE">binary studio academy, team monorepo</text>
+      <line x1="500" y1="208" x2="800" y2="208" stroke="#0F6E56" stroke-dasharray="2 6"/>
+      <text x="872" y="212" fill="#5DCAA5" text-anchor="end">[ OK ]</text>
+    </g>
+    <g class="ln" style="animation-delay:2.8s">
+      <text x="28" y="256" fill="#FAC775">&gt;</text>
+      <text x="50" y="256" fill="#E1F5EE">loading next: fullstack, remote</text>
+      <rect class="cur" x="342" y="242" width="10" height="18" fill="#5DCAA5"/>
+    </g>
+  </g>
+</svg>
